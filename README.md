@@ -4,7 +4,7 @@ This is a program that tests what type a triangle can be.
 # Author
 Amos KIbet.
 
-#BDD
+# BDD
 
 | Conditions/ Behaviours.                                   | Input.   | Result.              |
 |-----------------------------------------------------------|----------|----------------------|
@@ -22,5 +22,6 @@ Free to contribute.
 # Set up Instructions.
 No set up instructions.
 
-#Licence
-Public.
+# Licence
+
+Copyright (c) 2019 Amos Kibet
