@@ -20,8 +20,10 @@ function measurements(){
      alert("This is an isosceles Triangle.");
   }
 
-   else {
+   else if (a+b > c || b+c > a || a+c > b ){
     ("This is a scalene Triangle.")
   }
-
+ else {
+   alert("Cannot form a triangle")
+ }
 }
