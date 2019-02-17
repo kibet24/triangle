@@ -3,30 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Triangle-Tracker</title>
-
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
-    <h1>Triangle Tracker</h1>
+  <body class="body">
+
+    <h1 class="head">Triangle Tracker</h1>
     <p>This program will help you determine what type of a triangle you have.<br>
       Basically there are three types of triangles.
     </p>
-    <ul>
-      <label>Types of triangles.</label>
-      <li></li>
-      <li></li>
-      <li></li>
+    <ul class="list">
+      <label>Types of triangles.</label><br/>
+      <hr>
+      <li>Equilateral Triangles.</li><img src="images/equilateral.png" alt="" width="100px"; height="100px";>
+      <li>Isosceles Triangles.</li><img src="images/isosceles.png" alt="" width="100px"; height="100px";>
+      <li>Scalene Triangles</li><img src="images/scalene.png" alt="" width="130px"; height="100px"; >
       <p></p>
     </ul>
-    <form class="form" action="index.html" method="post">
+    <form action="index.html" method="post" class="form">
       <label>Side 1 length.</label><br/>
       <input type="number" name="side1" value="" id="sidea"><br/><br/>
       <hr/><br>
-      <label>Side 2 lenght.</label><br/>
+      <label>Side 2 lenght.</label><br>
       <input type="number" name="side2" value="" id="sideb"><br/><br/>
-      <hr/><br>
+      <hr/>
       <label>Side 3 lenght.</label><br/>
       <input type="number" name="side3" value="" id="sidec"><br/><br/>
-      <hr/><br>
+      <hr/>
       <button type="button" name="results" onclick="measurements()">Results.</button>
     </form>
     <script src="scripts/main.js"></script>
