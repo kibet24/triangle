@@ -8,18 +8,19 @@ function measurements(){
    var z = parseInt(c);
 
 
-   )
-
-   if(x+y<=z x+z <= y || y+z<= x){
-     alert("Cannot form a Triangle.");
-   }
-   else if (x===y && y===z) {
+   if (x===y && y===z) {
      alert("This is an equilateral Triangle.");
   }
+
+   else if (x+y<=z || x+z <= y || y+z<= x){
+     alert("Cannot form a Triangle.");
+   }
+
    else if (x==y || x==z || y==z) {
-     alert("This is an isosceles Triangle.")
+     alert("This is an isosceles Triangle.");
   }
-  else {
+
+   else {
     ("This is a scalene Triangle.")
   }
 
