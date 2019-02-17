@@ -1,24 +1,21 @@
 function measurements(){
-   var a = document.getElementById('sidea').value;
-   var b = document.getElementById('sideb').value;
-   var c = document.getElementById('sidec').value;
+   var side1 = document.getElementById('sidea').value;
+   var side2 = document.getElementById('sideb').value;
+   var side3 = document.getElementById('sidec').value;
 
-   var x = parseInt(a);
-   var y = parseInt(b);
-   var z = parseInt(c);
+   var side  = [side1,side2,side3];
 
-   if (x===y && y===z) {
+   if (side[0]===side[1] && side[1]===side[2]) {
      alert("This is an equilateral Triangle.");
   }
 
-   else if (x==y || x==z || y==z) {
+   else if (side[0]==side[1] || side[1]==side[2] || side[2]==side[0]) {
      alert("This is an isosceles Triangle.");
   }
-   else if (x+y<=z || x+z <= y || y+z<= x){
+   else if (side[0]+side[1]<=side[2] || side[1]+side[2] <= side [0] || side[2]+side[0]<= side[1]){
     alert("Cannot form a Triangle.");
   }
 else {
   alert("Scalene")
 }
-
 }

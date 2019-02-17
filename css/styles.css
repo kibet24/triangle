@@ -1,11 +1,12 @@
 .body {
   background-color: skyblue;
 
+
 }
 .form {
   background-color:orangered;
   text-align: center;
-  float: left; right: auto;
+  float: left;
 
 
 }
