@@ -1,17 +1,26 @@
-function measurements() {
-var a=parseInt(document.getElementById("a")).value;
-var b=parseInt(document.getElementById("b")).value;
-var c =parseInt(document.getElementById("c")).value;
-if ( a+b <= c || b+c <= a || a+c <= b){
-  alert("Cannot form a triangle.");
-}
-else if(a===b&&b==c){
-  alert("equilateral");
-}
-else if (a==b || a==c || b==c) {
-  alert("isoceles");
-}
-else {
-  alert("scalene");
-}
+function measurements(){
+   var a = document.getElementById('sidea').value;
+   var b = document.getElementById('sideb').value;
+   var c = document.getElementById('sidec').value;
+
+   var x = parseInt(a);
+   var y = parseInt(b);
+   var z = parseInt(c);
+
+
+   )
+
+   if(x+y<=z x+z <= y || y+z<= x){
+     alert("Cannot form a Triangle.");
+   }
+   else if (x===y && y===z) {
+     alert("This is an equilateral Triangle.");
+  }
+   else if (x==y || x==z || y==z) {
+     alert("This is an isosceles Triangle.")
+  }
+  else {
+    ("This is a scalene Triangle.")
+  }
+
 }

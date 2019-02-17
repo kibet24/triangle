@@ -2,22 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Triangle Tracker</title>
-    <link href="css/styles.css">
-  </head>
-  <body class="body">
-    <h1 class="head">Triangle Tracker</h1>
-    <form>
-      Length 1 <br>
-      <input type="number" name="side!" id="a">
-      <br/>Length 2 <br>
-      <input type="number" name="side!" id="b">
-      <br/>Lenght 3 <br>
-      <input type="number" name="side!" id="c">
-      <br>
-      <button type="button" name="results" onclick="measurements()">results</button>
+    <title>Triangle-Tracker</title>
 
+  </head>
+  <body>
+    <h1>Triangle Tracker</h1>
+    <p>This program will help you determine what type of a triangle you have.<br>
+      Basically there are three types of triangles.
+    </p>
+    <ul>
+      <label>Types of triangles.</label>
+      <li></li>
+      <li></li>
+      <li></li>
+      <p></p>
+    </ul>
+    <form class="form" action="index.html" method="post">
+      <label>Side 1 length.</label>
+      <input type="number" name="side1" value="" id="sidea">
+      <label>Side 2 lenght.</label>
+      <input type="number" name="side2" value="" id="sideb">
+      <label>Side 3 lenght.</label>
+      <input type="number" name="side3" value="" id="sidec">
+      <button type="button" name="results" onclick="measurements()">Results.</button>
     </form>
-     <script src="scripts/main.js" charset="utf-8"></script>
+    <script src="scripts/main.js"></script>
+
   </body>
 </html>

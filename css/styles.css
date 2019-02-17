@@ -1,3 +1,20 @@
-.body{
+.body {
   background-color: skyblue;
+}
+.form {
+  background-color: orangered;
+  text-align: center;
+
+
+}
+.h1 {
+  text-align: center;
+  background-color: navy;
+  border-radius: 25%;
+  text-decoration-color: green;
+  font-family: monospace;
+  background:height:auto;
+  margin-left: 0; auto;
+  margin-right: 0; auto;
+
 }
