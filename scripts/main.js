@@ -16,6 +16,6 @@ function measurements(){
     alert("Cannot form a Triangle.");
   }
 else {
-  alert("Scalene")
+  alert("This is a scalene triangle")
 }
 }
