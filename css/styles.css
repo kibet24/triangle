@@ -7,9 +7,8 @@ background-image: url("images/image.png");
   background-color:orangered;
   text-align: center;
   float: left;
-
-
 }
+
 .h1 {
   text-align: center;
   background-color: navy;
@@ -23,4 +22,8 @@ background-image: url("images/image.png");
 }
 .list {
 float: right;
+background-color: whitesmoke;
+}
+.input {
+  background-color: gray;
 }

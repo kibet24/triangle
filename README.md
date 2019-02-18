@@ -2,7 +2,7 @@
 This is a program that tests what type a triangle can be.
 
 # Author
-Amos KIbet.
+Amos Kibet.
 
 # BDD
 
