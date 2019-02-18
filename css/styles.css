@@ -2,6 +2,7 @@
   background-color: skyblue;
 background-image: url("images/image.png");
 
+
 }
 .form {
   background-color:orangered;
@@ -26,4 +27,5 @@ background-color: whitesmoke;
 }
 .input {
   background-color: gray;
+  font-style: oblique;
 }
