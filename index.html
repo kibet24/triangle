@@ -4,34 +4,35 @@
     <meta charset="utf-8">
     <title>Triangle-Tracker</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body class="body">
+<div class="container">
+  <h1 class="head">Triangle Tracker</h1>
+  <p class="">This program will help you determine what type of a triangle you have.<br>
+    Basically there are three types of triangles.
 
-    <h1 class="head">Triangle Tracker</h1>
-    <p class="">This program will help you determine what type of a triangle you have.<br>
-      Basically there are three types of triangles.
-
-    </p>
-    <ul class="list">
-      <label>Types of triangles.</label><br/>
-      <hr>
-      <li> <em> <u>Equilateral Triangles.</u> </em> </li><img src="images/equilateral.png" alt="" width="100px"; height="100px">
-      <li> <em> <u>Isosceles Triangles.</u> </em> </li><img src="images/isosceles.png" alt="" width="100px"; height="100px";>
-      <li> <em> <u>Scalene Triangles.</u> </em> </li><img src="images/scalene.png" alt="" width="130px"; height="100px"; >
-    </ul>
-    <form action="index.html" method="post" class="form">
-      <label> <strong>Side 1 length.</strong> </label><br/>
-      <input type="number" name="side1" value="" id="sidea" class="input"><br/><br/>
-      <hr/><br>
-      <label> <strong>Side 2 lenght.</strong> </label><br>
-      <input type="number" name="side2" value="" id="sideb" class="input"><br/><br/>
-      <hr/>
-      <label> <strong>Side 3 lenght.</strong> </label><br/>
-      <input type="number" name="side3" value="" id="sidec" class="input"><br/><br/>
-      <hr/>
-      <button type="button" name="results" onclick="measurements()">Results.</button>
-    </form>
-
+  </p>
+  <ul class="list">
+    <label>Types of triangles.</label><br/>
+    <hr>
+    <li> <em> <u>Equilateral Triangles.</u> </em> </li><img src="images/equilateral.png" alt="" width="100px"; height="100px">
+    <li> <em> <u>Isosceles Triangles.</u> </em> </li><img src="images/isosceles.png" alt="" width="100px"; height="100px";>
+    <li> <em> <u>Scalene Triangles.</u> </em> </li><img src="images/scalene.png" alt="" width="130px"; height="100px"; >
+  </ul>
+  <form action="index.html" method="post" class="form">
+    <label> <strong>Side 1 length.</strong> </label><br/>
+    <input type="number" name="side1" value="" id="sidea" class="input"><br/><br/>
+    <hr/><br>
+    <label> <strong>Side 2 lenght.</strong> </label><br>
+    <input type="number" name="side2" value="" id="sideb" class="input"><br/><br/>
+    <hr/>
+    <label> <strong>Side 3 lenght.</strong> </label><br/>
+    <input type="number" name="side3" value="" id="sidec" class="input"><br/><br/>
+    <hr/>
+    <button type="button" name="results" onclick="measurements()">Results.</button>
+  </form>
+</div>
     <script src="scripts/main.js"></script>
 
   </body>
